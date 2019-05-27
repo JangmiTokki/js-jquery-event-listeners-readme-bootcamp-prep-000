@@ -21,7 +21,7 @@ function pressIt()
   $('input').on('keydown', function(e)
   { 
     if('keydown')
-  })
+  });
 }
 
 $(document).ready(function(){
