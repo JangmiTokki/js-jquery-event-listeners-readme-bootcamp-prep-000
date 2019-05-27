@@ -1,11 +1,11 @@
 //define functions here
 function getIt()
 {
-  $("p").on('click', function(){alert("Hey!")})
+  $('p').on('click', function(){alert('Hey!')})
 }
 function frameIt()
 {
-  
+  $().on('load',)
 }
 $(document).ready(function(){
 
