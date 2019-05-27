@@ -20,7 +20,10 @@ function pressIt()
 {
   $('input').on('keydown', function(e)
   { 
-    
+    (if event.key === 'g')
+    {
+      alert("the ")
+    }
   });
 }
 
