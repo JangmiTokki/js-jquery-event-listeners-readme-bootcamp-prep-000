@@ -1,19 +1,27 @@
 //define functions here
 function getIt()
 {
-  $('p').on('click', function(){alert('Hey!')})
+  $('p').on('click', function()
+  {
+    alert('Hey!')
+    
+  });
 }
 
 function frameIt()
 {
-  $('img').on('load',function(){
-  $('img').addClass('tasty');
-  })
+  $('img').on('load',function()
+  {
+    $('img').addClass('tasty');
+  });
 }
 
 function pressIt()
 {
-  $('input')
+  $('input').on('keydown', function()
+  { 
+    if('keydown')
+  })
 }
 
 $(document).ready(function(){
