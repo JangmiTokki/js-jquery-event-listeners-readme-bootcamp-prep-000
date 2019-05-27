@@ -20,7 +20,7 @@ function pressIt()
 {
   $('input').on('keydown', function(e)
   { 
-    if (e.key === 71)
+    if (e.code === "Key")
     {
       alert("G key pressed");
     }
